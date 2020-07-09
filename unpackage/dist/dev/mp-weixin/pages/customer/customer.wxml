@@ -1,0 +1,1 @@
+<view class="contact"><image class="img" src="../../static/img/_search.jpg"></image><view class="info"><view data-event-opts="{{[['tap',[['phone',['$event']]]]]}}" bindtap="__e">联系电话:1873769**10~点击就能call哦~</view><view>联系地址:西安电子可基大学XX公寓</view></view><map class="map" longitude="{{longitude}}" scale="{{scale}}" latitude="{{latitude}}" markers="{{markers}}"></map></view>

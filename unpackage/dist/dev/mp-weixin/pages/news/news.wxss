@@ -1,0 +1,263 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+page {
+  background: #F5F5F5;
+  width: 100%;
+}
+.news .headNav {
+  width: 100%;
+  background: #FFFFFF;
+  white-space: nowrap;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 15;
+  border-bottom: 1px solid #87CEFA;
+}
+.news .headNavBox {
+  width: 75%;
+  margin: 0 auto;
+}
+.news .headNavLt {
+  display: inline-block;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 30rpx;
+  margin-right: 30rpx;
+}
+.news .headNavLt:last-child {
+  margin-right: 0;
+}
+.news .activeNav {
+  color: #3B7ED5;
+}
+.news .swiper {
+  height: 307rpx;
+}
+.news .swiper-item image {
+  width: 100%;
+  height: 307rpx;
+  display: block;
+}
+.news .idxMain {
+  width: 100%;
+  padding-top: 100rpx;
+}
+.news .idxMainBox {
+  width: 92%;
+  margin: 0 auto;
+}
+.news .contBg {
+  background: #FFFFFF;
+  overflow: hidden;
+  margin-bottom: 30rpx;
+}
+.news .contOver {
+  border-bottom: 1px #EDEDED solid;
+  overflow: hidden;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.news .contOver:active {
+  background: #E2E2E2;
+}
+.news .contOver:last-child {
+  border-bottom: none;
+}
+.news .contOverLt {
+  float: left;
+  width: 60%;
+}
+.news .contTxt {
+  color: #333333;
+  font-size: 30rpx;
+  width: 100%;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  padding-top: 30rpx;
+}
+.news .contTime {
+  color: #888888;
+  font-size: 24rpx;
+  margin-top: 30rpx;
+}
+.news .contRtImg {
+  float: right;
+  width: 35%;
+  height: 155rpx;
+  margin: 30rpx 0;
+}
+.news .contRtImg image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 6rpx;
+}
+.news .contTitle {
+  background: #FFFFFF;
+  font-size: 30rpx;
+  color: #3B7ED5;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-bottom: 1px #F5F5F5 solid;
+}
+.news .shopOver {
+  overflow: hidden;
+  margin-bottom: 30rpx;
+}
+.news .shopLt {
+  float: left;
+  width: 48.5%;
+  background: #FFFFFF;
+  height: 360rpx;
+  border: 1px #F2F2F2 solid;
+  border-radius: 12rpx;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  margin-top: 15rpx;
+}
+.news .shopLt:nth-child(2n) {
+  float: right;
+}
+.news .shopLt:active {
+  background: #E2E2E2;
+}
+.news .shopImg {
+  height: 220rpx;
+}
+.news .shopImg image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 12rpx 12rpx 0 0;
+}
+.news .shopTxt {
+  font-size: 28rpx;
+  color: #333333;
+  padding: 20rpx 20rpx 0 20rpx;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.news .shopMoney {
+  padding: 0 20rpx;
+}
+.news .shopMoney text {
+  font-size: 26rpx;
+  color: red;
+}
+.news .shopMoney text:last-child {
+  color: #aaaaaa;
+}
+.news .newsOver {
+  border-bottom: 1px #F5F5F5 solid;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.news .newsOver:active {
+  background: #E2E2E2;
+}
+.news .newsOver:last-child {
+  border-bottom: none;
+}
+.news .newsTitle {
+  font-size: 30rpx;
+  color: #333333;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  padding: 30rpx 0 20rpx 0;
+  text-align: justify;
+}
+.news .newsImg {
+  height: 360rpx;
+  border: 1px #F5F5F5 solid;
+}
+.news .newsImg image {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.news .newsTime {
+  overflow: hidden;
+  padding: 20rpx 0 30rpx 0;
+}
+.news .newsTime text {
+  font-size: 26rpx;
+  color: #AAAAAA;
+  float: left;
+}
+.news .newsTime text:last-child {
+  float: right;
+}
+.news .pics {
+  width: 100%;
+}
+.news .pics .left {
+  width: 100%;
+}
+.news .new_item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding: 10rpx 20rpx;
+  border-bottom: 1px solid #F0F8FF;
+}
+.news .new_item image {
+  min-width: 200rpx;
+  max-width: 200rpx;
+  height: 150rpx;
+}
+.news .new_item .right {
+  margin-left: 15rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.news .new_item .right .tit {
+  font-size: 30rpx;
+}
+.news .new_item .right .info {
+  font-size: 24rpx;
+}
+.news .new_item .right .info text:nth-child(2) {
+  margin-left: 30rpx;
+}
+

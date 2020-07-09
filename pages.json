@@ -1,0 +1,256 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	
+ {
+ 	"path": "pages/video/video",
+ 	"style": {
+ 		// 页面配置文件会覆盖全局配置文件
+ 		// "navigationBarTitleText": "uni-app"
+ 	}	
+ },	
+ {
+ 	"path": "pages/pay/payment/payment",
+ 	"style": {
+ 		// 页面配置文件会覆盖全局配置文件
+ 		// "navigationBarTitleText": "uni-app"
+ 	}	
+ },	
+ {
+ 	"path": "pages/pay/success/success",
+ 	"style": {
+ 		// 页面配置文件会覆盖全局配置文件
+ 		// "navigationBarTitleText": "uni-app"
+ 	}	
+ },	
+ {
+ 	"path": "pages/goods/ratings/ratings",
+ 	"style": {
+ 		// 页面配置文件会覆盖全局配置文件
+ 		// "navigationBarTitleText": "uni-app"
+ 	}	
+ },	
+ {
+ 	"path": "pages/order/confirmation",
+ 	"style": {
+ 		// 页面配置文件会覆盖全局配置文件
+ 		// "navigationBarTitleText": "uni-app"
+ 	}	
+ },	
+	{
+		"path": "pages/Splayer/Splayer",
+		"style": {
+			// 页面配置文件会覆盖全局配置文件
+			// "navigationBarTitleText": "uni-app"
+		}	
+	},	
+	{
+		"path": "pages/cart/cart",
+		"style": {
+			// 页面配置文件会覆盖全局配置文件
+			// "navigationBarTitleText": "uni-app"
+		}	
+	},
+	{
+		"path": "pages/base/list-search",
+		"style": {
+			// 页面配置文件会覆盖全局配置文件
+			// "navigationBarTitleText": "uni-app"
+		}	
+	},
+		{
+			"path":"pages/zaizai-login/index"
+		}, 
+		{
+		    "path" : "pages/article/article",
+		    "style" : {}
+		},
+		
+		{
+		    "path" : "pages/information/information",
+		    "style" : {}
+		},
+		{
+		  "path":"pages/zaizai-register/index"	
+		},
+		{
+		"path": "pages/news/news",
+		"style": {
+			// 页面配置文件会覆盖全局配置文件
+			// "navigationBarTitleText": "uni-app"
+		}	
+	}
+	,
+	
+	
+	{
+		"path": "pages/markdown/markdown",
+		"style": {
+			// 页面配置文件会覆盖全局配置文件
+			// "navigationBarTitleText": "uni-app"
+		}	
+	},
+	{
+	    "path" : "pages/uidemo/uidemo",
+	    "style" : {}
+	}, 
+	
+	
+	{
+			"path": "pages/index/index",
+			"style": {
+				// 页面配置文件会覆盖全局配置文件
+				// "navigationBarTitleText": "uni-app"
+			}
+			},
+	
+	{
+	    "path" : "pages/login/login",
+	    "style" : {}
+	},
+	
+		
+		{
+			"path": "pages/member/member",
+			"style": {
+				// 页面配置文件会覆盖全局配置文件
+				// "navigationBarTitleText": "uni-app"
+			}	
+		},
+		
+		// 这里会自动加上哦
+		{
+            "path" : "pages/goods/goods",
+            "style" : {
+				// 这种写法是自己的列表头
+			"navigationBarTitleText":"APLMU文章列表"	,
+			// 只在这个页面开启下拉刷新
+			"enablePullDownRefresh":true
+			}
+        }
+        ,{
+            "path" : "pages/contact/contact",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/pics/pics",
+            "style" : {
+				"navigationBarTitleText":"社区图片"
+			}
+        },
+		{
+		    "path" : "pages/new-detail/new-detail",
+		    "style" : {}
+		}
+        
+        
+        ,{
+            "path" : "pages/goods-detail/goods-detail",
+            "style" : {}
+        },
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		}
+        ,{
+            "path" : "common/GlobalVue/GlobalVue",
+            "style" : {}
+        }
+        ,{
+            "path" : "writeArticle/writeArticle",
+            "style" : {}
+        }
+        
+        
+        ,{
+            "path" : "pages/customer/customer",
+            "style" : {}
+        }
+        
+        ,{
+            "path" : "pages/historyArticle/historyArticle",
+            "style" : {}
+        }
+        
+        ,{
+            "path" : "pages/changingArticle/changingArticle",
+            "style" : {}
+        }
+        
+        ,{
+            "path" : "pages/group/group",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/guitarLearn/guitarLearn",
+            "style" : {}
+        }
+        
+    ],
+	"globalStyle": {
+		// 顶栏字体颜色
+		"navigationBarTextStyle": "black",
+		// 顶栏字体
+		"navigationBarTitleText": "APLMU",
+		// 顶栏颜色 爱丽丝蓝
+		"navigationBarBackgroundColor": "#F0F8FF",
+		"backgroundColor": "#F8F8F8"
+	},
+	// 配置tabbar
+	"tabBar":{
+		 "backgroundColor":"#f0f8ff",//底部颜色
+		// 选中文字颜色
+		"selectedColor":"#87CEFA",
+		//未选中文字颜色 
+		"color":"#C8C7CC",
+		"list":[{
+			// 对象文字
+			"text":"首页",
+			// 路径
+			 "pagePath":"pages/index/index",
+			 // 图标
+			 "iconPath":"static/aplmu-icon/_data.png",
+			 //选中图标
+			 "selectedIconPath":"static/aplmu-icon/data.png"
+		},
+		{
+			// 对象文字
+			"text":"资讯",
+			// 路径
+			 "pagePath":"pages/news/news",
+			 // 图标
+			 "iconPath":"static/aplmu-icon/_guitar.png",
+			 //选中图标
+			 "selectedIconPath":"static/aplmu-icon/guitar.png"
+		},
+		{
+			// 对象文字
+			"text":"AI教师",
+			// 路径 
+			 "pagePath":"pages/video/video",
+			 // 图标
+			 "iconPath":"static/aplmu-icon/_robot.png",
+			 //选中图标
+			 "selectedIconPath":"static/aplmu-icon/robot.png"
+		},
+		{    
+			"text":"搜索",
+		    "pagePath": "pages/base/list-search",
+		    "iconPath":"static/img/search--1.png",
+			"selectedIconPath":"static/img/sssss1.png"
+		},
+		
+		{
+			// 对象文字
+			"text":"我的",
+			// 路径 
+			 "pagePath":"pages/user/user",
+			 // 图标
+			 "iconPath":"static/aplmu-icon/_person.png",
+			 //选中图标
+			 "selectedIconPath":"static/aplmu-icon/person.png"
+		}
+		]
+	}
+}

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "news-item": "/components/news_item/news_item",
+    "mescroll-body-diy": "/components/mescroll-diy/beibei/mescroll-body",
+    "good-list": "/components/other/good-list"
+  }
+}

@@ -1,0 +1,346 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 遮罩 */
+.mask {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 10000;
+	background: rgba(0, 0, 0, 0.4);
+}
+/* 总盒子 */
+.major-box {
+	border: 1px 0 solid;
+	z-index: 10001;
+	position: fixed;
+	width: 100%;
+	/* height: 0px; */
+	left: 650rpx;
+	-webkit-transition: left 0.5s;
+	transition: left 0.5s;
+	overflow: hidden;
+}
+/* 展开时 */
+.major-box.show{left: 110rpx;}
+.click-btn,
+.nav-box {
+	float: left;
+}
+/* 按钮样式 */
+.nav-box{
+	background-color: #FFF;
+	border-radius: 0 0 0 5px;
+}
+.click-btn {
+	width: 100rpx;
+	background-color:#87CEFA;
+	color: #fff;
+	font-size: 10px;
+	text-align: center;
+	border-radius: 100rpx 0 0 100rpx;
+	line-height: 12px;
+	padding: 5px 0;
+}
+.click-btn view {
+	padding-left: 15rpx;
+}
+/* 按钮盒子 */
+.nav-box {
+	width: 500rpx;
+	padding: 30rpx 20rpx 20rpx 20rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	text-align: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.nav-btn {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	border: 0px #000 solid;
+	min-width: 150rpx;
+	padding: 12rpx 0;
+	padding-bottom: 20rpx;
+}
+.nav-icon {
+	width: 80rpx;
+	height: 80rpx;
+	line-height: 80rpx;
+	display: inline-block;
+	font-size: 15px;
+	border-radius: 50%;
+	background-color: #666;
+	color: #fff;
+}
+.nav-text {
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 8rpx;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*关键词搜索*/
+.item{
+	padding: 20rpx;
+}
+.tip{
+	font-size: 30rpx;
+	vertical-align: middle;
+}
+.hot-word{
+	font-size: 24rpx;
+	margin-left: 30rpx;
+	padding: 6rpx 40rpx;
+	border: 2rpx solid #FF6990;
+	border-radius: 100rpx;
+	vertical-align: middle;
+	color: #FF6990;
+}
+.word-input{
+	display: inline-block;
+	width: 60%;
+	padding:4rpx;
+	font-size: 24rpx;
+	margin-left: 30rpx;
+	border: 2rpx solid #18B4FE;
+	border-radius: 60rpx;
+	text-align: center;
+	background-color: #fff;
+	vertical-align: middle;
+}
+

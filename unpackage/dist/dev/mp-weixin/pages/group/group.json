@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "sa-hover-menu": "/components/sa-hover-menu/sa-hover-menu"
+  }
+}

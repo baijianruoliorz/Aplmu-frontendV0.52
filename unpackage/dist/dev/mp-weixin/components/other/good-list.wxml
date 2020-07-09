@@ -1,0 +1,1 @@
+<view class="pd-list"><block wx:for="{{list}}" wx:for-item="pd" wx:for-index="__i0__" wx:key="id"><view class="pd-li"><image class="pd-img" src="{{pd.pdImg}}" mode="widthFix"></image><view class="pd-name">{{pd.pdName}}</view><text class="pd-price">{{pd.pdPrice+" 元"}}</text><text class="pd-sold">{{"已售"+pd.pdSold+"件"}}</text></view></block></view>

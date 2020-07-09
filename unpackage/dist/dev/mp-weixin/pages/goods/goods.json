@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "APLMU文章列表",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "goods-list": "/components/goods-list/goods-list",
+    "mescroll-body-diy": "/components/mescroll-diy/beibei/mescroll-body",
+    "good-list": "/components/other/good-list"
+  }
+}

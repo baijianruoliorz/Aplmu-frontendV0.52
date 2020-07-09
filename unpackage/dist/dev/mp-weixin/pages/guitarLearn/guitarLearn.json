@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "sa-hover-menu": "/components/sa-hover-menu/sa-hover-menu",
+    "news-item": "/components/news_item/news_item"
+  }
+}

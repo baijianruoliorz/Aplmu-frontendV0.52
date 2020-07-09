@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "mescroll-body-diy": "/components/mescroll-diy/beibei/mescroll-body",
+    "good-list": "/components/other/good-list"
+  }
+}

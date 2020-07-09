@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "sa-hover-menu": "/components/sa-hover-menu/sa-hover-menu",
+    "mescroll-body-diy": "/components/mescroll-diy/beibei/mescroll-body",
+    "good-list": "/components/other/good-list"
+  }
+}

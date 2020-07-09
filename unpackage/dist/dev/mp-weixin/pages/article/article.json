@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "iconfont": "/components/iconfont/iconfont",
+    "scroller": "/components/scroller/scroller",
+    "article-list": "/components/article/list",
+    "page-loading": "/components/loading/pageLoading"
+  }
+}

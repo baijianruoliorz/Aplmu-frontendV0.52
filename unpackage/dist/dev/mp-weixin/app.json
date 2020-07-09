@@ -1,0 +1,83 @@
+{
+  "pages": [
+    "pages/video/video",
+    "pages/pay/payment/payment",
+    "pages/pay/success/success",
+    "pages/goods/ratings/ratings",
+    "pages/order/confirmation",
+    "pages/Splayer/Splayer",
+    "pages/cart/cart",
+    "pages/base/list-search",
+    "pages/zaizai-login/index",
+    "pages/article/article",
+    "pages/information/information",
+    "pages/zaizai-register/index",
+    "pages/news/news",
+    "pages/markdown/markdown",
+    "pages/uidemo/uidemo",
+    "pages/index/index",
+    "pages/login/login",
+    "pages/member/member",
+    "pages/goods/goods",
+    "pages/contact/contact",
+    "pages/pics/pics",
+    "pages/new-detail/new-detail",
+    "pages/goods-detail/goods-detail",
+    "pages/user/user",
+    "common/GlobalVue/GlobalVue",
+    "writeArticle/writeArticle",
+    "pages/customer/customer",
+    "pages/historyArticle/historyArticle",
+    "pages/changingArticle/changingArticle",
+    "pages/group/group",
+    "pages/guitarLearn/guitarLearn"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "APLMU",
+    "navigationBarBackgroundColor": "#F0F8FF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "backgroundColor": "#f0f8ff",
+    "selectedColor": "#87CEFA",
+    "color": "#C8C7CC",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/aplmu-icon/_data.png",
+        "selectedIconPath": "static/aplmu-icon/data.png"
+      },
+      {
+        "text": "资讯",
+        "pagePath": "pages/news/news",
+        "iconPath": "static/aplmu-icon/_guitar.png",
+        "selectedIconPath": "static/aplmu-icon/guitar.png"
+      },
+      {
+        "text": "AI教师",
+        "pagePath": "pages/video/video",
+        "iconPath": "static/aplmu-icon/_robot.png",
+        "selectedIconPath": "static/aplmu-icon/robot.png"
+      },
+      {
+        "text": "搜索",
+        "pagePath": "pages/base/list-search",
+        "iconPath": "static/img/search--1.png",
+        "selectedIconPath": "static/img/sssss1.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/user/user",
+        "iconPath": "static/aplmu-icon/_person.png",
+        "selectedIconPath": "static/aplmu-icon/person.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "mescroll-body": "/components/mescroll-uni/mescroll-body",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni"
+  }
+}
